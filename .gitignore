@@ -391,7 +391,7 @@ MigrationBackup/
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
-*.pdf
+## *.pdf
 
 ## Build tool directories for auxiliary files
 # latexrun
