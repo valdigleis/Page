@@ -167,3 +167,45 @@
 .classroom .row:nth-child(odd) {
     background-color: rgb(250, 250, 250);
 }
+
+/* Configurações da classe paper */
+.paper {
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: #f8e0e0 1px solid;
+}
+
+.paper .row:first-child {
+    border-bottom: #e1e1e1 1px solid;
+    padding-bottom: .75rem;
+    margin-bottom: .75rem;
+    font-size: 150%;
+    line-height: 130%;
+}
+
+.paper .venue {
+    text-align: right;
+    color: #888;
+}
+
+.paper .dlinks {
+    text-align: right;
+}
+
+.paper .dlinks a {
+    display: inline-block;
+    margin: 0 .5rem;
+    padding: .25rem;
+}
+
+.paper .awards {
+    text-align: right;
+}
+
+.paper .notes {
+    margin-top: 5px;
+    text-align: justify;
+    font-size: x-small;
+    color: #695c5c;
+}
